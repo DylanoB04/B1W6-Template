@@ -2,6 +2,7 @@
   font-family: roboto;
   src: url(roboto-regular.ttf);
 }
+
 html, body {height: 100%; width: 100%;}
 
 body {
@@ -10,10 +11,10 @@ body {
 	margin: 0 auto;
 	z-index: 1;
 }
-#balk {
+.balk {
 	background-color: white;
 	overflow: hidden;
-	height: 50px;
+	height: 40px;
 }
 .pagina {
 	overflow: hidden;
@@ -30,31 +31,180 @@ body {
 .pagination {
 	color: rgb(255, 255, 255);
 	display: inline-block;
-	padding-left: 23%;
+	padding-left: 22%;
 	padding-top: 27%;
 	position: absolute;
 	z-index: 3;
 	opacity: 0.30;
  }
-
 .pagination a {
   	color: white;
   	text-decoration: none;
   	transition: background-color .3s;
-  	padding: 8px 55px;
-}
-
-.pagination a.active {
-  	background-color: #4CAF50;
-  	color: white;
-  	border: 1px solid #4CAF50;
+  	padding: 4px 45px;
+  	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);	
 }
 .fas {
 	font-size: 27px;
 }
-.text p {
-	font-size: 16px;
-	padding-left: 26%;
-	padding-top: 28.5%;
-	word-spacing: 77.5px;
+.text p { 
+	font-size: 16px; 
+	padding-left: 24.5%; 
+	padding-top: 29%; 
+	word-spacing: 57px; 
+}
+.fa-rss {
+	position: absolute;
+	right: 7.7%;
+	margin-right: 20px;
+	color: rgb(255, 255, 255);
+	background-color: lightgray;
+	padding: 10px 10px 10px 10px;
+	top: 4px;
+}
+.fa-twitter {
+	position: absolute;
+	right: 5%;
+	margin-right: 20px;
+	color: rgb(255, 255, 255);
+	background-color: lightgray;
+	padding: 10px 10px 10px 10px;
+	top: 4px;
+}
+.fa-facebook-f {
+	position: absolute;
+	right: 2.4%;
+	margin-right: 20px;
+	color: rgb(255, 255, 255);
+	background-color: lightgray;
+	padding: 10px 12px 10px 12px;
+	top: 4px;
+}
+.fa-google-plus {
+	position: absolute;
+	right: 0%;
+	margin-right: 11px;
+	color: rgb(255, 255, 255);
+	background-color: lightgray;
+	padding: 10px 10px 10px 10px;
+	top: 4px;
+}
+/*HOME*/
+.paginationhome {
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	padding-left: 12%;
+	padding-top: 12%;
+	position: absolute;
+	z-index: 3;
+	opacity: 0.30;
+ }
+.paginationhome a {
+  	color: white;
+  	text-decoration: none;
+  	transition: background-color .3s;
+  	padding: 4px 45px;
+  	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);	
+}
+.pagina h1 {
+	font-size: 500%;
+	padding-left: 41%;
+	z-index: 4;
+	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);
+}
+/*FEATURES*/
+.pagination2 {
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	padding-left: 20%;
+	padding-top: 2%;
+	position: absolute;
+	z-index: 3;
+	opacity: 0.30;
+ }
+.pagination2 a {
+  	color: white;
+  	text-decoration: none;
+  	transition: background-color .3s;
+  	padding: 4px 45px;
+  	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);
+}
+.pagina h2 {
+	font-size: 300%;
+	z-index: 4;
+	padding-top: 5%;
+	text-align: center;
+	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);
+}
+#features {
+	text-align: center;
+	font-size: 120%;
+	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);
+}
+#textfeat {
+	font-size: 120%;
+	text-align: center;
+	padding: 0 20% 0 20%;
+	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);
+}
+/*pages*/
+#pages {
+	text-align: center;
+	font-size: 200%;
+	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);
+}
+#pages a {
+	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);
+}
+/*PORTFOLIO*/
+#textport {
+	font-size: 120%;
+	text-align: center;
+	padding: 0 20% 0 20%;
+	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);
+}
+/*BLOG*/
+.pagina #voorbeeld {
+	width: 20%;
+	padding-left: 10%;
+	float: left;
+}
+#textblog {
+	font-size: 120%;
+	text-align: center;
+	padding: 0 20% 0 20%;
+	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);
+}
+/*CONTACT*/
+#contact {
+	text-align: center;
+	font-size: 200%;
+	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);
+}
+/*MUSIC*/
+#textmusic {
+	font-size: 120%;
+	text-align: center;
+	padding: 0 20% 0 20%;
+	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);
+}
+#song {
+	font-size: 120%;
+	text-align: center;
+	padding: 0 20% 0 45%;
+	font-family: 'roboto', sans-serif; 
+	color: rgba(255, 255, 255, 0.8);
 }
